@@ -147,17 +147,17 @@ return(
 <img src={modelPic} alt=""/>
 <div className="overlay">
     <img src={this.state.Glass}/>
+</div><div className="glass-info">
+    <h1>{this.state.name}</h1>
+    <p>{this.state.desc}</p>
+    <p>Price: {this.state.price} VND</p>
 </div></div>:<div>
 <img src={modelPic} alt=""/>
 <div className="overlay">
 </div></div>
 }
 
-<div className="glass-info">
-    <h1>{this.state.name}</h1>
-    <p>{this.state.desc}</p>
-    <p>Price: {this.state.price} VND</p>
-</div>
+
 </div>
  
 <div className="glass-list">
